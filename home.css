@@ -1,102 +1,78 @@
-*
-{
-	margin: 0;
-	padding: 0;
-}
-.pic
-{
-	background-image:url("image/home.jpg");
-	margin-top:10px;
-	padding-top:5px;
-	height: 150vh;
-	width:100%;
-	background-size: cover;
-	background-position: middle;
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-.container
-{ 
-	width: 100%;
-	
+#Body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), #dddf00),
+    url("image/home.jpg");
+  background-position: center;
+  background-size: cover;
+  padding-top: 5px;
+  height: 100vh;
+  width: 100%;
 }
-.nav-bar
-{
-	background-color: rgb(0,0,0,1);
-	width: 100%;
-	height: 100px;
+.introduction {
+  text-align: center;
+  padding-top: 200px;
 }
-.logo1
-{
-	margin: 15px ;
-	height: 60px;
+.introduction h1 {
+  color: rgb(233, 235, 140);
+  font-size: 70px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
-
-
-.menu
-{
-	float: right;
-	list-style: none;
-	margin: 10px;
+.introduction p {
+  color: rgb(234, 238, 212);
+  font-size: 60px;
+  font-family: "Courgette", cursive;
 }
 
-.menu li
-{
-	
-	display: inline-block;
-	margin: 30px 20px;
+.nav-bar {
+  background-color: #007f5f;
+  width: 100%;
+  height: 100px;
+}
+.logo1 {
+  margin-left: 40px;
+  margin-top: 15px;
+  height: 60px;
+  width: 55px;
+  border-radius: 22px;
 }
 
-.menu li a
-{
-	
-	color: #fff;
-	padding: px 10px;
-	font-family: sans-serif;
-	letter-spacing: 0px;
-	border: 1px  #fff;
-	text-decoration: none;
+.menu {
+  float: right;
+  list-style: none;
+  margin: 10px;
 }
 
-.menu li a:hover
-{
-	background: #fff;
-	transition: .2s;
-	color: #000;
+.menu li {
+  display: inline-block;
+  margin: 30px 20px;
 }
 
-.introduction
-{
-	position: relative;
-	text-align: center;
-	font-family: sans-serif;
-	color: #000000;
-	top: 160px;
+.menu li a {
+  color: rgb(214, 214, 200);
+  font-size: 18px;
+  padding: 6px;
+  font-family: sans-serif;
+  text-decoration: none;
 }
 
-.introduction h1
-{
-	font-size: 82px;
-	margin: 25px;
-	color: #fff;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+.menu li a:hover {
+  transition: 0.2s;
+  color: white;
 }
 
-.introduction h2
-{
-	font-size:60px;
-	margin: 25px;
-	color: #f2f2f2;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+footer {
+  background-color: #007f5f;
+  width: 100%;
+  height: 200px;
 }
-.footer1
-{
-	margin-top:0px;
-	margin-bottom: 10px;
-	background-color: rgb(0,0,0,0.8);
-	height: 100px;
-	width:100%;
+footer p {
+  text-align: center;
+  padding-top: 60px;
+  font-size: 20px;
+  color: aliceblue;
 }
-
-
-	
