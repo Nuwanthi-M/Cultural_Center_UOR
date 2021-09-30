@@ -48,17 +48,7 @@
   margin: 10px;
 }
 
-.menu1 {
-  padding-left: 230px;
-  list-style: none;
-}
-.menu1 li a {
-  color: bisque;
-  font-size: 18px;
-  padding: 6px;
 
-  text-decoration: none;
-}
 
 .menu li {
   display: inline-block;
@@ -76,6 +66,18 @@
 .menu li a:hover {
   transition: 0.2s;
   color: white;
+}
+
+.menu1 {
+  padding-left: 230px;
+  list-style: none;
+}
+.menu1 li a {
+  color: bisque;
+  font-size: 18px;
+  padding: 6px;
+
+  text-decoration: none;
 }
 
 footer {
